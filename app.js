@@ -17,6 +17,10 @@ app.get('/add', userCtrl.addUser)
 
 app.get('/crud', userCtrl.crudOperation)
 
+app.get('/queryData', userCtrl.queryData)
+
+app.get('/finder', userCtrl.finderData)
+
 
 app.listen(port, () => {
     console.log('app is running on port' + 3001)
